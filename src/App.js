@@ -10,6 +10,7 @@ import BudgetCard from "./components/BudgetCard";
 import TotalBudgetCard from "./components/TotalBudgetCard";
 import UncategorizedBudgetCard from "./components/UncategorizedBudgetCard";
 
+// Function to launch set all state values and components
 function App() {
   const [showAddBudgetModal, setShowAddBudgetModal] = useState(false);
   const [showAddExpenseModal, setShowAddExpenseModal] = useState(false);
